@@ -2,15 +2,17 @@
 <html>
 <body>
 
-<h1>The output element</h1>
+<h1>My AUtomated jenkins test</h1>
 
-<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
-<input type="range" id="a" value="50">
-+<input type="number" id="b" value="25">
-=<output name="x" for="a b"></output>
+<form action="/action_page.php">
+  <p><label for="w3review">Review of W3Schools:</label></p>
+  <textarea id="w3review" name="w3review" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea>
+  <br>
+  <input type="submit" value="Submit">
 </form>
 
-<p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
 
 </body>
 </html>
