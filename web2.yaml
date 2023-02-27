@@ -1,5 +1,0 @@
-- name: This sets up an httpd webserver
-  hosts: web
-  
-      src: /var/lib/jenkins/workspace/gitpull/index.html
-      dest: /var/www/html/index.html

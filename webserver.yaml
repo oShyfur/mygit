@@ -1,4 +1,0 @@
-- name: This sets up an httpd webserver
-  hosts: web
-  ployment/index.html
-      dest: /var/www/html/index.html
