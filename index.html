@@ -1,32 +1,16 @@
 <!DOCTYPE html>
 <html>
-<body>
+	<body>
 
-<h3>Jenkins Automation testing on SAME nodes by Shyfur</h3>
+		<h2>My Jenkin Test Today </h2>
 
-<form action="/action_page.php">
-  <p><label for="w3review">Review of W3Schools:</label></p>
-  <textarea id="w3review" name="w3review" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea>
-  <br>
-  <input type="submit" value="Submit">
-</form>
+		<?php
+		// Set the new timezone
+		date_default_timezone_set('Asia/Kolkata');
+		$date = date('d-m-y h:i:s');
+		echo $date;
+		?>
 
-<button onclick="showContent()">Show hidden content</button>
-
-<template>
-  <h2>Flower</h2>
-  <img src="img_white_flower.jpg" width="214" height="204">
-</template>
-
-<script>
-function showContent() {
-  var temp = document.getElementsByTagName("template")[0];
-  var clon = temp.content.cloneNode(true);
-  document.body.appendChild(clon);
-}
-</script>
-<p>Click the "Submit" button and the form-data will be sent to a page on the 
-server called "action_page.php".</p>
-
-</body>
+	</body>
 </html>
+
