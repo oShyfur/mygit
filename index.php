@@ -2,7 +2,7 @@
 <html>
 	<body>
 
-		<h2>My Jenkin Test Today </h2>
+		<h2>My Jenkin Test Today - ANOTHER NODE </h2>
 
 		<?php
 		// Set the new timezone
